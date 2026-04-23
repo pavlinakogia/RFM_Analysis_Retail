@@ -24,4 +24,4 @@ output_path = os.path.join(base_path, 'outputs', 'rfm_treemap.png')
 plt.savefig(output_path)
 plt.show()
 
-print(f"✅ Το Treemap σώθηκε στο: {output_path}")
+print(f"Το Treemap σώθηκε στο: {output_path}")
