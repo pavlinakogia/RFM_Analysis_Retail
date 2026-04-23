@@ -27,5 +27,5 @@ rfm['RFM_Total_Score'] = rfm[['R_Score', 'F_Score', 'M_Score']].sum(axis=1)
 output_path = os.path.join(base_path, 'data', 'rfm_scored.csv')
 rfm.to_csv(output_path)
 
-print("✅ Το Scoring ολοκληρώθηκε!")
+print("Το Scoring ολοκληρώθηκε!")
 print(rfm.head())
