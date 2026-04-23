@@ -30,6 +30,6 @@ rfm['segment'] = rfm['segment'].replace(seg_map, regex=True)
 output_path = os.path.join(base_path, 'data', 'rfm_final.csv')
 rfm.to_csv(output_path)
 
-print("✅ Το Segmentation ολοκληρώθηκε!")
+print("Το Segmentation ολοκληρώθηκε!")
 # Δείξε πόσους πελάτες έχουμε σε κάθε κατηγορία
 print(rfm['segment'].value_counts())
